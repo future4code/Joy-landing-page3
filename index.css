@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.cabecalho{
+    background-color: rgb(247, 193, 94);
+    position: fixed;
+}
+
+.logo-cabecalho{
+    width: 15vw;
+    height: 25vh;
+}
+
+.cabecalho-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.menu-container{
+    display: flex;
+
+}
+.menu-nav-cabecalho .itens-menu-cabecalho{
+    list-style: none;
+}

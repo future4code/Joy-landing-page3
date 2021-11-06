@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>4Food</title>
 </head>
 <body>
@@ -12,15 +13,24 @@
             <div class="cabecalho-container">
                 <img class="logo-cabecalho" src="img/logo.png" alt="Logo 4Food">
                 <h1 class="titulo-cabecalho">4Food</h1>
-                <a class="link-cabecalho" href="#">Home</a>
-                <a class="link-cabecalho" href="#">Pratos Prontos</a>
-                <a class="link-cabecalho" href="#">Fale Conosco</a>
-                <a class="link-cabecalho" href="#">Redes Sociais</a>
+                
+                <div class="menu-container">
+                    <nav class="menu-nav-cabecalho">
+                        <ul>
+                            <li class="itens-menu-cabecalho"><a class="link-cabecalho" href="#home">Home</a></li>
+                            <li class="itens-menu-cabecalho"><a class="link-cabecalho" href="#comidas">Pratos Prontos</a></li>
+                            <li class="itens-menu-cabecalho"><a class="link-cabecalho" href="#sobre-nos">Sobre Nós</a></li>
+                            <li class="itens-menu-cabecalho"><a class="link-cabecalho" href="#fale-conosco">Fale Conosco</a></li>
+                            <li class="itens-menu-cabecalho"><a class="link-cabecalho" href="#redes-sociais">Redes Sociais</a></li>
+                        </ul>
+                    </nav>   
+                </div>
+                          
             </div>
         </header>
 
         <main class="conteudo">
-            <section class="home-conteudo">
+            <section id="home">
                 <div class="home-container">
                     <h2 class="subtitulo-baixar">Baixe Nosso App e Acumule Pontos</h2>
                     <img class="img-baixar-app" src="img/ingredientes.jpg" alt="Imagem de ingredientes">
@@ -29,7 +39,7 @@
                 </div>
             </section>
             
-            <section class="comidas-conteudo">
+            <section id="comidas">
                 <div class="pratos-prontos-container">
                     <img class="img-pratos-prontos" src="img/pratos-prontos.jpg" alt="Imagem de Pratos Prontos">
                     <button class="btn-conteudo">Pratos Prontos</button>
@@ -54,14 +64,14 @@
                 </div>
             </section>
 
-            <section class="sobre-nos-conteudo">
+            <section id="sobre-nos">
                 <div class="sobre-nos-container">
                     <img class="img-sobre-nos" src="img/sobre-nos.png" alt="Imagem Sobre Nós">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, consectetur iste minus illum nihil ullam sed repudiandae placeat quidem cum! Labore architecto rem aliquid non. Debitis corporis commodi dolores optio.</p>
                 </div>
             </section>
 
-            <section class="fale-conosco-conteudo">
+            <section id="fale-conosco">
                 <div class="fale-conosco-formulario">
                     <form class="formulario-contato" action="#">
                         <h1 class="titulo-formulario">Entre em Contato</h1>
@@ -82,8 +92,10 @@
                         </div>
                     </form>
                 </div>
-
-                <div class="fale-conosco-redes-sociais">
+            </section>
+            
+            <section id="redes-sociais">
+                <div class="redes-sociais-container">
                     <h5>Instagram</h5>
                     <h5>Facebook</h5>
                     <h5>WhattsApp</h5>
