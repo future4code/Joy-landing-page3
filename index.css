@@ -4,6 +4,7 @@
 }
 body {
     background-image: url(img/doodles\ completos.png);
+    font-family: 'Oswald', sans-serif;
 }
 .cabecalho{
     background-color: white;
@@ -26,10 +27,11 @@ body {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 .menu-nav-cabecalho ul li a {
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:black;
     margin-right: 30px;
 }
 .menu-nav-cabecalho li:hover{
@@ -38,6 +40,12 @@ body {
 .img-baixar-app {
     margin: auto 0;
     width: 100%;
+}
+.slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
 }
 
 .cabecalho-container{
@@ -64,8 +72,11 @@ body {
     margin-right: 30px;
 }
 .home-container button {
+    display: flex;
     border-radius: 5px ;
     background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    align-items: center;
 }
 
 .descricao {
@@ -140,7 +151,10 @@ body {
 }
 .opcoes img {
     margin: 0;
-    height: 70px;
+    width: 70px;
+}
+.opcoes p {
+    font-size: 15px;
 }
 #comidas {
     overflow: hidden;
@@ -159,6 +173,40 @@ body {
     align-items: center;
     justify-content: center;
 }
+.Cardapio {
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)) ;
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.Cardapio button {
+    display: flex;
+    color: tomato;
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+}
+.texto-conteudo {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    opacity: 70%;
+}
+.pratos {
+    background-color:tomato;
+    padding: 15px 15px 40px;
+}
+.pratos img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
 #fale-conosco {
     display: flex;
     align-items: center;
@@ -176,9 +224,11 @@ footer {
     justify-items: center;
 }
 .redes-sociais-container a {
+    display: flex;
     text-decoration: none;
     color:rgb(0, 0, 0);
     margin-right: 30px;
+    align-items: center;
 }
 .rodape{
     align-items: center;

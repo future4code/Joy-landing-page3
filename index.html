@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <title>4Food</title>
 </head>
 <body>
@@ -23,51 +26,66 @@
                             <li class="itens-menu-cabecalho"><a class="link-cabecalho" href="#redes-sociais">Redes Sociais</a></li>
                         </ul>
                     </nav>   
-                </div>
-                          
+                </div>           
             </div>
-            
         </header>
+        <div class="slogan">
+            <h1>COMA BEM, SEM SAIR DE CASA</h1>
+        </div>
         <main class="conteudo">
             <img class="img-baixar-app" src="img/ingredientes.jpg" alt="Imagem de ingredientes">
             <section id="home">
             <div class="home-container">
-                <h2 class="subtitulo-baixar">Baixe Nosso App e Acumule Pontos</h2>
+                <h6 class="subtitulo-baixar">Baixe Nosso App e Acumule Pontos</h6>
                 <br>
                 <a href="https://play.google.com/store"><button>Google Play</button></a>
                 <a href="https://www.apple.com/br/store"><button>Apple Store</button></a>
             </div>
-            </section>
-            <div class="descricao">
-                <div>
-                <h1>Sobre nós</h1>
-                <p>Não é sobre vendas, é sobre levar o melhor alimento, com os melhores ingrediente, melhores sabores
-                    e com a melhor entrega, é sobre colocar na mesa o conforto.</p>
-                    <br><br>
-                    <p>4Food se compromete em trazer a melhor experiência gastronômica pra você</p>
+            <section id="comidas">
+                <div class="Introducao">
+                <p class="texto-conteudo">CARDÁPIO</p>
                 </div>
-                <div>
-                    <form class="Formulario">
-                        <label>Hora de Comer!</label>
-                        <input type="text" name="nome" placeholder="Nome" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <input type="text" name="Cidade" placeholder="Cidade" required>
-                        <input type="text" name="Estado" placeholder="Estado" required>
-                        <label>O que procura?</label>
-                        <select name="Categoria" id="categoria">
-                        <option>Selecione</option>   
-                        <option>Vegetariano</option>
-                        <option>Carnes</option>
-                        <option>Massas</option>
-                        <option>Bebidas</option>
-                        <option>Diversos</option>
-                        <option>Comidas de vó</option>
-                    </select>
-                    <button>Enviar</button>
-
-                    </form>
+                <div class="Cardapio">
+                    <div class="pratos">
+                        <img class="img-itens-pratos" src="img/pratos-prontos.jpg" alt="" class="foto">
+                        <div class="sobre">
+                            <h2>Prato Feito</h2>
+                        </div>
+                    </div>
+                    <div class="pratos">
+                        <img class="img-itens-pratos" src="img/feijoada.jpg" alt="" class="foto">
+                        <div class="sobre">
+                            <h2>Feijoada</h2>
+                        </div>
+                    </div>
+                    <div class="pratos">
+                        <img class="img-itens-pratos" src="img/sushi.jpg" alt="" class="foto">
+                        <div class="sobre">
+                            <h2>Sushi</h2>
+                        </div>
+                    </div>
+                    <div class="pratos">
+                        <img class="img-itens-pratos" src="img/moqueca.jpeg" alt="" class="foto">
+                        <div class="sobre">
+                            <h2>Moqueca</h2>
+                        </div>
+                    </div>
+                    <div class="pratos">
+                        <img class="img-itens-pratos" src="img/risoto-camarao.jpg" alt="" class="foto">
+                        <div class="sobre">
+                            <h2>Risoto de Camarão</h2>
+                        </div>
+                    </div>
+                    <div class="pratos">
+                        <img class="img-itens-pratos" src="img/churrasco.jpg" alt="" class="foto">
+                        <div class="sobre">
+                            <h2>Churrasco</h2>
+                        </div>
+                    </div>
+                <button class="btn-conteudo">Mais Opções</button>
                 </div>
-            </div>
+        </section>
+            
             <section id="Categorias">
                 <div class="conteudo-inf">
                     <div class="inf">
@@ -109,35 +127,38 @@
                     </div>
                 </div>
             </section>
-        
+        </section>
+        <div class="descricao">
+            <div>
+            <h1>Não encontrou o que procura?</h1>
+            <p>Não é sobre vendas, é sobre levar o melhor alimento, com os melhores ingrediente, melhores sabores
+                e com a melhor entrega, é sobre colocar na mesa o conforto.</p>
+                <br><br>
+                <p>4Food se compromete em trazer a melhor experiência gastronômica pra você</p>
             </div>
-            <section id="comidas">
-                <div class="pratos-prontos-container">
-                    <img class="img-pratos-prontos" src="img/pratos-prontos.jpg" alt="Imagem de Pratos Prontos">
-                    <div class="Introducao">
-                    <button class="btn-conteudo">Pratos Prontos</button>
-                    <p class="texto-conteudo">Escolha seu prato em nosso cardápio</p>
-                    </div>
-                    <div class="lista-pratos-prontos">
-                        <ul>
-                            <li><img class="img-itens-pratos" src="img/alaminuta.webp" alt="Alaminuta">AlaMinuta</li>
-                            <li><img class="img-itens-pratos" src="img/feijoada.jpg" alt="Feijoada">Feijoada</li>
-                            <li><img class="img-itens-pratos" src="img/sushi.jpg" alt="Sushi">Sushi</li>
-                            <li><img class="img-itens-pratos" src="img/moqueca.jpeg" alt="">Moqueca</li>
-                            <li><img class="img-itens-pratos" src="img/risoto-camarao.jpg" alt="">Risoto de Camarão</li>
-                        </ul>
-                    </div>
-                  
-                </div>
-            </section>
+            <div>
+                <form class="Formulario">
+                    <label>Hora de Comer!</label>
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="Cidade" placeholder="Cidade" required>
+                    <input type="text" name="Estado" placeholder="Estado" required>
+                    <label>O que procura?</label>
+                    <select name="Categoria" id="categoria">
+                    <option>Selecione</option>   
+                    <option>Vegetariano</option>
+                    <option>Carnes</option>
+                    <option>Massas</option>
+                    <option>Bebidas</option>
+                    <option>Diversos</option>
+                    <option>Comidas de vó</option>
+                </select>
+                <button>Enviar</button>
 
-            <section id="sobre-nos">
-                <div class="sobre-nos-container">
-                    <img class="img-sobre-nos" src="img/sobre-nos.png" alt="Imagem Sobre Nós">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, consectetur iste minus illum nihil ullam sed repudiandae placeat quidem cum! Labore architecto rem aliquid non. Debitis corporis commodi dolores optio.</p>
-                </div>
-            </section>
-
+                </form>
+            </div>
+        </div>
+            
             <section id="fale-conosco">
                 <div class="fale-conosco-formulario">
                     <form class="formulario-contato" action="#">
