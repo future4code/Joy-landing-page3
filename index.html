@@ -30,20 +30,24 @@
             </div>
         </header>
         <main class="conteudo">
-        <div class="slogan">
-            <h1>COMA BEM, SEM SAIR DE CASA</h1>
-        </div>
-            <img class="img-baixar-app" src="img/ingredientes.jpg" alt="Imagem de ingredientes">
+            <section id="#home">
+                <div class="slogan">
+                    <h1>COMA BEM, SEM SAIR DE CASA.</h1>
+                </div>
+    
+                <img class="img-baixar-app" src="img/ingredientes.jpg" alt="Imagem de ingredientes">
+            </section>
+            
             <section id="home">
-            <div class="home-container">
-                <h6 class="subtitulo-baixar">Baixe Nosso App e Acumule Pontos</h6>
-                <br>
-                <a href="https://play.google.com/store"><button>Google Play</button></a>
-                <a href="https://www.apple.com/br/store"><button>Apple Store</button></a>
-            </div>
+                <div class="home-container">
+                    <h6 class="subtitulo-baixar">Baixe Nosso App e Acumule Pontos</h6>
+                    <a class="links-store" href="https://play.google.com/store"><button id="btn-app">Google Play</button></a>
+                    <a class="links-store" href="https://www.apple.com/br/store"><button id="btn-app">Apple Store</button></a>
+                </div>
+
             <section id="comidas">
                 <div class="Introducao">
-                <p class="texto-conteudo">CARDÁPIO</p>
+                    <p class="texto-conteudo">CARDÁPIO</p>
                 </div>
                 <div class="Cardapio">
                     <div class="pratos">
@@ -82,7 +86,6 @@
                             <h2>Churrasco</h2>
                         </div>
                     </div>
-                <button class="btn-conteudo">Mais Opções</button>
                 </div>
         </section>
             
@@ -136,14 +139,14 @@
                 <p>4Food se compromete em trazer a melhor experiência gastronômica pra você!</p>
             </div>
             <div>
-                <form class="Formulario">
+                <form class="formulario">
                     <label>Hora de Comer!</label>
                     <input type="text" name="nome" placeholder="Nome" required>
                     <input type="email" name="email" placeholder="Email" required>
                     <input type="text" name="Cidade" placeholder="Cidade" required>
                     <input type="text" name="Estado" placeholder="Estado" required>
                     <label>O que procura?</label>
-                    <select name="Categoria" id="categoria">
+                    <select name="categoria" id="categoria">
                     <option>Selecione</option>   
                     <option>Vegetariano</option>
                     <option>Carnes</option>
@@ -170,38 +173,42 @@
                     gosto não se discute.</p>
             </div>
         </section>
+
             <br>
             <br>
             <br>
             <section id="fale-conosco">
                 <div class="fale-conosco-formulario">
                     <form class="formulario-contato" action="#">
-                        <h1 class="titulo-formulario">Entre em Contato</h1>
-                        <label class="informacoes-formulario" for="nome">Digite seu nome:</label>
-                        <input class="entrada-formulario" type="text" id="nome" name="nome" placeholder="Nome Completo" required>
-    
-                        <label class="informacoes-formulario" for="email">Digite seu email:</label>
-                        <input class="entrada-formulario" type="email" id="email" name="email" placeholder="email@email.com" required>
-    
-                        <label class="informacoes-formulario" for="telefone">Telefone para contato:</label>
-                        <input class="entrada-formulario" type="number" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
-    
-                        <label class="informacoes-formulario" for="mensagem">Digite sua mensagem:</label>
-                        <input class="entrada-formulario" type="text" id="mensagem" name="mensagem" placeholder="Mensagem" required>
-                        
-                        <div>
-                            <input href="#" class="botao-formulario" class="botao" type="submit" value="ENVIAR">
+                        <div class="formulario-container">
+                            <h1 class="titulo-formulario">Entre em Contato</h1>
+                            <label class="informacoes-formulario" for="nome">Digite seu nome:</label>
+                            <input class="entrada-formulario" type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+        
+                            <label class="informacoes-formulario" for="email">Digite seu email:</label>
+                            <input class="entrada-formulario" type="email" id="email" name="email" placeholder="email@email.com" required>
+        
+                            <label class="informacoes-formulario" for="telefone">Telefone para contato:</label>
+                            <input class="entrada-formulario" type="number" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+        
+                            <label class="informacoes-formulario" for="mensagem">Digite sua mensagem:</label>
+                            <input class="entrada-formulario" type="text" id="mensagem" name="mensagem" placeholder="Mensagem" required>
+                            
+                            <div>
+                                <input href="#" class="botao-formulario" class="botao" type="submit" value="ENVIAR">
+                            </div>
                         </div>
                     </form>
                 </div>
             </section>
         </main>
+
         <footer class="rodape">   
             <section id="redes-sociais">
                 <div class="redes-sociais-container">
-                    <a href="https://www.instagram.com/"><h5>Instagram</h5></a>
-                    <a href="https://pt-br.facebook.com/"><h5>Facebook</h5></a>
-                    <a href="https://www.whatsapp.com/"><h5>WhattsApp</h5></a>
+                    <a href="https://www.instagram.com/"><img class="img-redes-sociais" src="img/instagram.png" alt="Instagram"></a>
+                    <a href="https://pt-br.facebook.com/"><img class="img-redes-sociais" src="img/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.whatsapp.com/"><img class="img-redes-sociais" src="img/whatts.png" alt="WhattsApp"></a>
                 </div>
             </section>
             <p class="texto-rodape">&copy; 4Food - Coma Bem. Sem Sair de Casa</p>
@@ -209,3 +216,4 @@
     </div>
 </body>
 </html>
+
