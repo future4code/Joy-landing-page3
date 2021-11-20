@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(img/doodles\ completos.png);
+    font-family: 'Oswald', sans-serif;
+}
+
+.cabecalho{
+    background-color: white;
+    opacity: 80%;
+    width: 100%;
+    height: 125px;
+}
+
+.logo-cabecalho{
+    height: 125px;
+}
+
+.menu-nav-cabecalho ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu-nav-cabecalho ul li a {
+    text-decoration: none;
+    color:black;
+    margin-right: 30px;
+  
+}
+
+.link-cabecalho:hover{
+    color: orange;
+}
+
+
+.img-baixar-app {
+    margin: auto 0;
+    width: 100%;
+}
+
+.slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+}
+
+.links-store{
+    text-decoration: none;
+}
+
+#btn-app{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#btn-app:hover{
+    background-color: rgb(211, 134, 134);
+}
+
+.subtitulo-baixar{
+    font-size: 25px;
+}
+
+.cabecalho-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container{
+    display: flex;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: tomato;
+    align-items: center;
+}
+
+
+
+.home-container h2 {
+    margin-right: 30px;
+}
+
+.home-container button {
+    display: flex;
+    border-radius: 5px ;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    align-items: center;
+}
+
+.descricao {
+    display: flex;
+    max-width: 600px;
+    overflow: hidden;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 80%;
+    font-size: 23px;
+
+}
+.descricao div {
+    float: left;
+    width: 55%;
+    box-sizing: border-box;
+}
+.descricao h1{
+    text-align: center;
+}
+.descricao p{
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.formulario {
+    background-color: rgb(199, 117, 103);
+    border:rgb(85, 27, 27) solid 3px;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 23px;
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario select{
+    width: 100%;
+    box-sizing: border-box;
+    margin:10px 0;
+    border-radius: 200px;
+    border:0;
+    padding: 8px 10px;
+}
+.formulario button {
+    width: 80px;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: rgb(182, 77, 77);
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: white;
+}
+
+.conteudo-inf {
+    max-width: 600px;
+    overflow: hidden;
+    margin: auto auto;
+    background-color: tomato;
+    border-top: solid 4px red;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+
+}
+#Categorias{
+    overflow: hidden;
+    display: flex;
+    font-size: 20px;
+    background-color: tomato;
+}
+.opcoes div{
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+}
+.opcoes img {
+    margin: 0;
+    width: 70px;
+}
+.opcoes p {
+    font-size: 15px;
+    
+}
+#comidas {
+    overflow: hidden;
+}
+.lista-pratos-prontos ul li {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.lista-pratos-prontos ul li img {
+    height: 100px;
+}
+.Introducao p {
+    font-size: 80px;
+    
+}
+.Introducao {
+    align-items: center;
+    justify-content: center;
+}
+.Cardapio {
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)) ;
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.texto-conteudo {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    opacity: 70%;
+}
+.pratos {
+    background-color:tomato;
+    padding: 15px 15px 40px;
+}
+.pratos h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pratos img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+.sobre-nos-container {
+    background-color: white;
+    opacity: 90%;
+    color: black;
+    font-size: 23px;
+}
+.sobre-nos-container h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos-container p{
+    font-weight: bold;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+#fale-conosco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199, 117, 103);
+    opacity: 95%;
+    padding: 15px;
+    font-size: 23px;  
+}
+
+.formulario-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.entrada-formulario{
+    width: 50vw;
+    height: 5vh;
+}
+
+.botao-formulario{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.botao-formulario:hover{
+    background-color: rgb(211, 134, 134);
+}
+
+.redes-sociais-container a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin-right: 30px;
+    align-items: center;
+}
+
+.img-redes-sociais{
+    width: 2vw;
+    height: 4vh;
+    padding: 5px 0;
+}
+
+.rodape{
+    display: grid;
+    background-color: tomato;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
